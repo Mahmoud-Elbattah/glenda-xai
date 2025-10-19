@@ -1,0 +1,23 @@
+data:
+  metadata_csv: "metadata.csv"
+  img_root: ""
+  num_workers: 4
+
+training:
+  batch_size: 32
+  max_epochs: 40
+  patience: 7
+  lr: 2.0e-4
+  optimizer: adam
+  scheduler: cosine
+  loss: "weighted_ce"   # ce | weighted_ce
+  img_size: 320
+  val_split: 0.2        # 80/20 split at patient level
+  seed: 42
+
+model:
+  name: "edgenext_small"
+
+gradcam:
+  output_dir: "assets/examples"
+  target_layer: "default"
