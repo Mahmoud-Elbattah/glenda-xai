@@ -1,7 +1,7 @@
 # Explainable Deep Learning for Endometriosis Classification in Laparoscopic Images
 
 This is a **minimal** PyTorch + timm pipeline that trains a **single best model (EdgeNeXt_Small)**
-for binary classification on GLENDA and provides a **basic Grad-CAM** visualisation script.
+for binary classification on GLENDA and provides a **Grad-CAM** visualisation script.
 
 - Single 80/20 **patient-level split** (no k-folds)
 - Image size = **320**
