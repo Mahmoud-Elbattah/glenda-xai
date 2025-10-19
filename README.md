@@ -3,12 +3,6 @@
 This is a **minimal** PyTorch + timm pipeline that trains a **single best model (EdgeNeXt_Small)**
 for binary classification on GLENDA and provides a **Grad-CAM** visualisation script.
 
-- Single 80/20 **patient-level split** (no k-folds)
-- Image size = **320**
-- Loss = **weighted cross-entropy** (to handle class imbalance)
-- Early stopping (patience 7) + cosine LR
-- **Basic Grad-CAM** overlays saved as images (no IoU/Dice/Recall metrics here)
-
 ## Quick start
 
 ```bash
