@@ -1,4 +1,4 @@
-# GLENDA — Lightweight Demo (Single Model + Basic Grad-CAM)
+# Explainable Deep Learning for Endometriosis Classification in Laparoscopic Images
 
 This is a **minimal** PyTorch + timm pipeline that trains a **single best model (EdgeNeXt_Small)**
 for binary classification on GLENDA and provides a **basic Grad-CAM** visualisation script.
