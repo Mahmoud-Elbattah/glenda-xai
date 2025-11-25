@@ -3,6 +3,8 @@
 This is a **minimal** PyTorch + timm pipeline that trains a **single best model (EdgeNeXt_Small)**
 for binary classification on GLENDA and provides a **Grad-CAM** visualisation script.
 
+https://doi.org/10.3390/biomedinformatics5040063
+
 ## Quick start
 
 ```bash
