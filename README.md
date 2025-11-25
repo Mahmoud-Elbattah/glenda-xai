@@ -3,6 +3,7 @@
 This is a **minimal** PyTorch + timm pipeline that trains a **single best model (EdgeNeXt_Small)**
 for binary classification on GLENDA and provides a **Grad-CAM** visualisation script.
 
+Zhu, Y., & Elbattah, M. (2025). Explainable Deep Learning for Endometriosis Classification in Laparoscopic Images. BioMedInformatics, 5(4), 63.
 https://doi.org/10.3390/biomedinformatics5040063
 
 ## Quick start
